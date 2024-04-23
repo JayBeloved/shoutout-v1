@@ -55,7 +55,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 document.addEventListener("DOMContentLoaded", function () {
   let letter = 0;
-  const text = "I'm reaching out because I'm so sorry for being a bad friend lately. I haven't been there for you the way I should have been, and I know you've been going through a tough time. Our friendship means a lot to me, and I truly value you. I hope you can forgive me.";
+  const text = "I sincerely appreciate you for the well wishes, prayers and support, I do not take it for granted. It really means alot to me. I pray that you will always have reasons to celebrate and rejoice.";
   function typeText() {
     if (letter < text.length) {
       document.getElementById("myMessage").innerHTML += text.charAt(letter);
