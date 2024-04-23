@@ -52,7 +52,7 @@
                     <div class="text-center">
                       <h1 class="mx-auto my-0 text-uppercase" id="myHeading"></h1>
                       <hr>
-                      <h2 id="myMessage"></h2>
+                      <h2 id="myMessage" style="font-color: white"></h2>
                     </div>
                       
                 </div>
@@ -68,8 +68,8 @@
        <script>
       // Retrieve the variable from local storage
       var personName = localStorage.getItem("personName");
-      var myHeading = "I Appreciate you "
-      myHeading += personName
+      var myHeading = personName
+      myHeading += " I Appreciate you"
       document.getElementById('myHeading').innerHTML = myHeading
     </script>
     </body>
